@@ -7,7 +7,10 @@ function App() {
   const buttonList = [
     {theme:"btn-white", content:'Discover More', icon:<BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>},
     {theme:"btn-red", content:'Discover More', icon:<BsFillArrowRightCircleFill></BsFillArrowRightCircleFill>},
-    {theme:"btn-apply", content:'Apply'}
+    {theme:"btn fill", content:'Apply'},
+    {theme:"btn pulse", content:'Apply'},
+    {theme:"btn raise", content:'Apply'},
+    {theme:"btn up", content:'Apply'},
   ]
   return (
     <div className="App">
