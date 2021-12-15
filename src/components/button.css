@@ -89,3 +89,19 @@ button {
   color:white;
 }
 
+.offset {
+  border-radius: 0;
+  border-color:none;
+  box-shadow:
+    0.4em 0.4em 0 0 #ff323c,
+    inset 0.4em 0.4em 0 0 #ff323c;
+}
+
+.offset:hover,
+.offset:focus  {
+  box-shadow:
+    0 0 0 0 #ff323c, 
+    inset 6em 3.5em 0 0 #ff323c;
+  color:white;
+  
+}

@@ -11,6 +11,7 @@ function App() {
     {theme:"btn pulse", content:'Apply'},
     {theme:"btn raise", content:'Apply'},
     {theme:"btn up", content:'Apply'},
+    {theme:"btn offset", content:'Apply'},
   ]
   return (
     <div className="App">
