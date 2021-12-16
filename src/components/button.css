@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+button {
+  border-radius: 53px;
+  padding: 12px;
+  margin: 50px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  margin-right: 15px;
+}
+
+.button-icon {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #ff323c;
+  border: none;
+}
+
+.btn-white:hover {
+  background-color: #ff323c;
+  color: white;
+  border: 3px solid white;
+  transition: 0.3s;
+}
+
+.btn-red {
+  background-color: #ff323c;
+  color: white;
+  border: none;
+}
+
+.btn-red:hover{
+  background-color: white;
+  color: #ff323c;
+  border: 3px solid #ff323c;
+  transition: 0.3s;
+}
+
+.btn {
+  border-color: #ff323c;
+  color:#ff323c;
+  transition: 0.25s;
+  background-color: transparent;
+}
+
+/* box-shadow: [inset?] [top] [left] [blur] [size] [color]; */
+.fill:hover,
+.fill:focus  {
+  box-shadow: inset 0 0 0 2em #ff323c;
+  color:white;
+}
+
+.pulse {
+  border-radius: 0;
+}
+
+.pulse:hover,
+.pulse:focus  {
+  animation: pulse 1s;
+  box-shadow:0 0 0 2em rgba(0,0,0, 0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255,50,60, 0.7); }
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #ff323c;
+  transform: translateY(-0.5em);
+}
+
+.up:hover,
+.up:focus  {
+  box-shadow: inset 0 -3.25em 0 0 #ff323c;
+  color:white;
+}
+
+.offset {
+  border-radius: 0;
+  border-color:none;
+  box-shadow:
+    0.4em 0.4em 0 0 #ff323c,
+    inset 0.4em 0.4em 0 0 #ff323c;
+}
+
+.offset:hover,
+.offset:focus  {
+  box-shadow:
+    0 0 0 0 #ff323c, 
+    inset 6em 3.5em 0 0 #ff323c;
+  color:white;
+  
+}
